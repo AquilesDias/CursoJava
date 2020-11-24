@@ -1,0 +1,23 @@
+package Collection;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class FilaQueue {
+	public static void main(String[] args) {
+		
+		Queue<String> fila = new LinkedList<>();
+		
+		fila.add("Lucas");
+		fila.offer("John");
+		fila.add("Clarice");
+		fila.offer("Amanda");
+		
+		System.out.println(fila.peek());
+		System.out.println(fila.element());
+		System.out.println(fila.element());
+		
+
+	}
+
+}

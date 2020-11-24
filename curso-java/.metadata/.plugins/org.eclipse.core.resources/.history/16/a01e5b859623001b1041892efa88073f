@@ -1,0 +1,15 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Wrapper {
+	
+	public static void main(String[] args) {
+		
+		Boolean b = Boolean.parseBoolean("u");
+		
+		System.out.println(b);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package Classe;
+
+public class DesafioJantar {
+	public static void main(String[] args) {
+		
+		DesafioPessoa dp = new DesafioPessoa();
+		DesafioComida dc = new DesafioComida();
+		
+		
+		System.out.println("Antes: " +dp.nomePessoa +": peso:"  + dp.pesoPessoa);
+	}
+
+}

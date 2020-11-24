@@ -1,0 +1,26 @@
+package Classe;
+
+public class ValorVsReferencia {
+	public static void main(String[] args) {
+		
+		int a = 5;
+		int b = a;
+		int c = a;
+		
+		a++;
+	    b--;
+	    System.out.println(a +"....."+b);
+	    System.out.println(c);
+	    System.out.println("==========================");
+	    int d = 5;
+		int e = d;
+		int f = d;
+		
+		++d;
+	    --e;
+	    System.out.println(d +"....."+e);
+	    System.out.println(f);
+	    
+	}
+
+}

@@ -1,0 +1,13 @@
+package Classe;
+
+public class AreaCirc {
+	
+     double pi;
+     double raio;
+     
+     
+     AreaCirc(Double raioInicial){
+    	 raio = raioInicial;
+     }
+
+}

@@ -1,0 +1,12 @@
+package Classe;
+
+public class DesafioComida {
+	
+	String nome;
+	double pesoComida;
+	
+	DesafioComida (double pesoComida){
+	   this.pesoComida = pesoComida;
+	}
+	
+}

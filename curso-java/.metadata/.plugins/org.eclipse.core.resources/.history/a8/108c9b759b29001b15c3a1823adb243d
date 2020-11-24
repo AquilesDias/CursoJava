@@ -1,0 +1,20 @@
+package Classe;
+
+public class DesafioPessoa {
+	
+	String nomePessoa;
+	double pesoPessoa;
+	
+	DesafioComida dc = new DesafioComida();
+	
+	DesafioPessoa(String nome, double pesoPessoa){
+		this.nomePessoa = nome;
+		this.pesoPessoa = pesoPessoa;
+		dc.nomeComida
+	}
+	
+	double comer(double comida) {
+		return pesoPessoa + dc.pesoComida;
+	}
+
+}

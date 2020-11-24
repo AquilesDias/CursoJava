@@ -1,0 +1,21 @@
+package Collection;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class ConjuntoComportado {
+	public static void main(String[] args) {
+		
+        //Set<String> lista = new HashSet<String>();
+		Set<String> lista = new TreeSet<>();
+        lista.add("Lucas");
+        lista.add("John");
+        lista.add("Cinthia");
+        lista.add("John");
+        
+        for(String ler : lista) {
+        	System.out.println(ler);
+        }
+	}
+
+}

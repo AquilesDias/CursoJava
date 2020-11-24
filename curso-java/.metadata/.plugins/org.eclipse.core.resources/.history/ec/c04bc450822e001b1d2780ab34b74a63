@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mapa {
+
+	public static void main(String[] args) {
+		
+		Map<Integer, String> usuarios = new HashMap<>();
+		
+		usuarios.put(1, "Rafael");
+		usuarios.put(2,"João");
+		usuarios.put(3, "Aquiles");
+		usuarios.put(4, "Lucas");
+		usuarios.put(5, "Maycon");
+		
+		System.out.println(usuarios.keySet());
+		
+	}
+
+}

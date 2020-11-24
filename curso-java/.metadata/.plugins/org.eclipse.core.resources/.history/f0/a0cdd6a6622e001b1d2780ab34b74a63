@@ -1,0 +1,30 @@
+package Collection;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class FilaQueue {
+	public static void main(String[] args) {
+
+		Queue<String> fila = new LinkedList<>();
+
+		fila.add("Lucas");
+		fila.offer("John");
+		fila.add("Clarice");
+		fila.offer("Amanda");
+
+		System.out.println(fila.size());
+		System.out.println(fila.peek());
+		System.out.println(fila.element());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.size());
+
+//		fila.clear(); //Para limpar a fila.
+//		fila.size();  //Verifica o tamanho da fila
+//		fila.isEmpty();//Verifica se a fila está vazia.
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class Lista {
+	public static void main(String[] args) {
+		
+		ArrayList<Usuario> lista = new ArrayList<>(); 
+		
+		Usuario u1 = new Usuario("Lara");
+		
+		lista.add(u1);
+		lista.add(new Usuario("Jorge"));
+		lista.add(new Usuario("John"));
+		lista.add(new Usuario("Maycon"));
+		lista.add(new Usuario("Aquiles"));
+		
+		for(Usuario u : lista) {
+			System.out.println(u.nome);
+		}		
+		
+	}
+}

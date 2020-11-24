@@ -1,0 +1,9 @@
+package Collection;
+
+public class FilaQueue {
+
+	public FilaQueue() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

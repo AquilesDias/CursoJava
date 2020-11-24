@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Pilha {
+	public static void main(String[] args) {
+
+		Deque<String> livros = new ArrayDeque<String>();
+		
+		livros.add("Harry Potter");
+		livros.add("A volta dos que não foram");
+		livros.push("aaaaaaaaa");
+		livros.push("bbbbbbbbb");
+		livros.push("ccccccccc");
+		
+		System.out.println(livros.poll());
+		System.out.println(livros.poll());
+		System.out.println(livros.poll());
+	}
+
+}

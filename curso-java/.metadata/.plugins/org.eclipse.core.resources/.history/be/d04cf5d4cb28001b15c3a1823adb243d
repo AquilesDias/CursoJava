@@ -1,0 +1,9 @@
+package Classe;
+
+public class PrimeiroTrauma {
+	int a = 3;//Não pode mexer aqui!
+	public void main(String[] args) {
+ 
+		System.out.println(a);		
+	}
+}

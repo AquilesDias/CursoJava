@@ -1,0 +1,17 @@
+package Classe;
+
+public class ConstrutorTesteDesafio {
+	public static void main(String[] args) {
+		
+		ConstrutorTeste ct = new ConstrutorTeste();
+		ct.imprimirNaTela();
+		
+		int dia = 23;
+		int mes = 9;
+		int ano = 1997;
+		ConstrutorTeste ct2 = new ConstrutorTeste(dia, mes, ano);
+		
+		System.out.println(ct2);
+	}
+
+}

@@ -1,0 +1,9 @@
+package Classe;
+
+public class TesteStaticMain {
+	public static void main(String[] args) {
+
+		TesteStatic ts = new TesteStatic();
+		System.out.println(ts.nome);
+	}
+}

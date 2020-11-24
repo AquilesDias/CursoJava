@@ -1,0 +1,9 @@
+package Classe;
+
+public class ConstrutorTesteDesafio {
+	public static void main(String[] args) {
+		
+		ConstrutorDesafio cd = new ConstrutorDesafio();
+	}
+
+}

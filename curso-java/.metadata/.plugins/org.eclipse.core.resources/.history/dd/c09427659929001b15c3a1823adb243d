@@ -1,0 +1,8 @@
+package Classe;
+
+public class DesafioPessoa {
+	
+	String nome;
+	double pesoPessoa;
+
+}

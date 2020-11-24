@@ -1,0 +1,10 @@
+package Classe;
+
+public class DesafioJantar {
+	public static void main(String[] args) {
+		
+		DesafioPessoa dp = new DesafioPessoa();
+		DesafioComida dc = new DesafioComida();
+	}
+
+}

@@ -1,0 +1,13 @@
+package fundamentos;
+
+
+public class Inferencia {
+	
+	public static void main(String[] args) {
+		
+		String nome = "Sabonete";
+		nome.toUpperCase();
+		
+		System.out.println(nome);
+	}
+}

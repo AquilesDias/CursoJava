@@ -1,0 +1,11 @@
+package fundamentos;
+
+
+public class Inferencia {
+	
+	public static void main(String[] args) {
+		
+		long teste = 41412L;
+		System.out.println(teste);
+	}
+}

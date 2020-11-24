@@ -1,0 +1,24 @@
+package Arrays;
+
+import java.util.Arrays;
+
+public class Exercicio {
+	public static void main(String[] args) {
+		
+		double notasAluno [] = new double[3];
+		//System.out.println(Arrays.toString(notasAluno));//
+		
+		notasAluno[0] = 32.4;
+		notasAluno[1] = 12;
+		notasAluno[2] = 86.7;
+		
+		//System.out.println(Arrays.toString(notasAluno));
+		
+		double total = 0;
+		for(int a = 0; a <3; a++) {
+		     total += notasAluno[a];
+		}
+		
+		System.out.println(total);
+	}
+}

@@ -1,0 +1,19 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Wrapper {
+	
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		Byte b;
+		
+		b = Byte.parseByte(ler.next());
+		
+		System.out.println(b);
+		
+		
+	}
+
+}

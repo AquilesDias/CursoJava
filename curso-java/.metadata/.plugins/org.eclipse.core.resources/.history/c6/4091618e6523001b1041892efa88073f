@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class TipoString {
+	
+	public static void main(String[] args) {
+		
+		String time = "Flamengo";
+		
+		System.out.println(time.charAt(3));
+		
+		System.out.println(time.startsWith("Flamengo"));
+		
+	}
+
+}

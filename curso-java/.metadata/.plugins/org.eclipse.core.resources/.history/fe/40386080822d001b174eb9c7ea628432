@@ -1,0 +1,9 @@
+package Collection;
+
+public class ConjuntoComportado {
+	public static void main(String[] args) {
+		
+		Set lista = new hashset();
+	}
+
+}

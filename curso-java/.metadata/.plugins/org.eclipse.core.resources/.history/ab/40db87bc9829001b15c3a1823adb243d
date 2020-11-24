@@ -1,0 +1,10 @@
+package Classe;
+
+public class ClasseTeste {
+	public static void main(String[] args) {
+		
+		Integer a;
+		System.out.println(a);
+	}
+
+}

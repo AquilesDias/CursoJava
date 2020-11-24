@@ -1,0 +1,18 @@
+package Classe;
+
+public class AreaCirc {
+	
+     double pi;
+     double raio;
+     
+     
+     AreaCirc(Double raio){
+    	 pi = 3.14;
+    	 this.raio = raio;
+     }
+     
+     double area() {     	
+    	 return pi * Math.pow(raio,2);
+     }
+
+}

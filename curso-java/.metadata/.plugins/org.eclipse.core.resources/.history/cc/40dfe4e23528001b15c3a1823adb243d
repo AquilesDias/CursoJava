@@ -1,0 +1,15 @@
+package Classe;
+
+public class ConstrutorTesteDesafio {
+	public static void main(String[] args) {
+		
+		
+		ConstrutorTeste ct = new ConstrutorTeste();		
+		
+		//ConstrutorTeste ct2 = new ConstrutorTeste(23/9/1997);
+		
+		System.out.println(ct.imprimirDataFormatada());
+			
+	}
+
+}

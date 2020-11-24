@@ -1,0 +1,10 @@
+package Collection;
+
+public class Mapa {
+
+	public static void main(String[] args) {
+		
+		Map<Integer, String> usuarios = new HashMap<>();
+	}
+
+}

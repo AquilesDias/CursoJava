@@ -1,0 +1,9 @@
+package Collection;
+
+public class Pilha {
+
+	public Pilha() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

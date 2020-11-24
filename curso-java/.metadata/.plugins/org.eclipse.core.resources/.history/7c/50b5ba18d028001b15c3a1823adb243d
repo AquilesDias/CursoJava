@@ -1,0 +1,15 @@
+package Classe;
+
+public class PrimeiroTrauma {
+	int a = 3;//Não pode mexer aqui!
+	public static void main(String[] args) {
+       	
+	  System.out.println(pegarValor());
+	}
+	
+	 static int pegarValor() {
+		Integer b;
+		return b.intValue(a); 
+	}
+	
+}
