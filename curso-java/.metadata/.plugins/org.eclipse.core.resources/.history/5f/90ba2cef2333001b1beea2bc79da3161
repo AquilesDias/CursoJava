@@ -1,0 +1,14 @@
+package oo.deafio;
+
+
+
+public class Compra {
+
+	Item item = new Item();
+	
+	List <Item> itens = new ArrayList<>();
+	
+	
+	
+	
+}

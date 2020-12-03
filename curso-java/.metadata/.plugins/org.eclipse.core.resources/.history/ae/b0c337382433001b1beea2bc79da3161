@@ -1,0 +1,11 @@
+package oo.deafio;
+
+import java.util.ArrayList;
+
+public class Item {
+
+	Produto produto = new Produto();
+
+	List<Produto> produtos = new ArrayList<>();
+
+}

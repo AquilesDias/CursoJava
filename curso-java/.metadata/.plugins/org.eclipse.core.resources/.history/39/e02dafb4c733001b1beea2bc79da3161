@@ -1,0 +1,13 @@
+package oo.deafio;
+
+public class Item {
+
+	int quantItem;
+	Produto produto = new Produto();
+
+	Item() {
+	}
+
+
+
+}

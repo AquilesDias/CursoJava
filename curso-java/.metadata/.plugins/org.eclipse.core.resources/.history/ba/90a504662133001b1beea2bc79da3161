@@ -1,0 +1,8 @@
+package oo.deafio;
+
+public class Cliente {
+
+	//Compra compra = new Compra();
+	
+	List<Compra> compras = new ArrayList<>();
+}

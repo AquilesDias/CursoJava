@@ -1,9 +1,0 @@
-package Classe;
-
-public class ConstrutorTesteDesafio {
-	public static void main(String[] args) {
-		
-		ConstrutorTeste ct = new ConstrutorTeste();
-	}
-
-}

@@ -1,6 +1,0 @@
-package Classe;
-
-public class TesteStatic {
-
-	static String nome = "Aquiles";
-}

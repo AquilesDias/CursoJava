@@ -1,0 +1,10 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+
+public class Curso {
+	
+	String nome;	
+	ArrayList<Aluno> alunos = new ArrayList<>();
+
+}

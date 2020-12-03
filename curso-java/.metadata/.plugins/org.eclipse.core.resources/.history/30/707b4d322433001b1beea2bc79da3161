@@ -1,0 +1,9 @@
+package oo.deafio;
+
+public class Item {
+	
+	Produto produto = new Produto();
+	
+	List<Produto> produtos = new ArrayList<>();
+
+}
