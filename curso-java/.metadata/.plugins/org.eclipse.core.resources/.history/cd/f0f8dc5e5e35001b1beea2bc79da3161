@@ -21,14 +21,6 @@ public class Jogo {
 		j1.atacar(j2);
 		j2.atacar(j1);
 
-		j1.atacar(j2);
-		j2.atacar(j1);
-
-		j1.andar(Direcao.NORTE);
-		j1.atacar(j2);
-		j2.atacar(j1);
-
-		System.out.println("");
 		System.out.println("========APOS ATAQUE==============");
 		System.out.println("Heroi = quantidade de vida: " + j1.vida);
 		System.out.println("Monstro = quantidade de vida: " + j2.vida);
