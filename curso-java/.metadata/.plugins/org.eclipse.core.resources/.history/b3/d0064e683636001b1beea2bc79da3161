@@ -3,11 +3,7 @@ package oo.heranca.desafio;
 public class Ferrari extends Carro {
 
 	Ferrari() {
-		this(300);
-	}
-
-	Ferrari(int velocidadeMaxima) {
-		super(velocidadeMaxima);
+		super(300);
 	}
 
 	@Override
