@@ -1,0 +1,12 @@
+package oo.heranca.desafio;
+
+public class Pista {
+
+	public static void main(String[] args) {
+
+		Ferrari f1 = new Ferrari();
+		System.out.println(f1.velocidadeAtual);
+
+	}
+
+}
