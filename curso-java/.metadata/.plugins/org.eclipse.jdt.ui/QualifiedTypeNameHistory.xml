@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oo.heranca.Monstro"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 </qualifiedTypeNameHistroy>

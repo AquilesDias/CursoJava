@@ -1,0 +1,13 @@
+package oo.encapsulamento;
+
+public class PessoaTeste {
+	public static void main(String[] args) {
+
+		Pessoa year = new Pessoa(30);
+
+		year.setIdade(-50);
+
+		System.out.println(year.getIdade());
+	}
+
+}

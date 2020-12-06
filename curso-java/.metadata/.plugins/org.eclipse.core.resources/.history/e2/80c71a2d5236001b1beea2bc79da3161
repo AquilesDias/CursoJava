@@ -1,0 +1,15 @@
+package oo.encapsulamento.casaB;
+
+import oo.encapsulamento.casaA.Ana;
+
+public class Pedro extends Ana {
+
+
+	void testeAcesso() {
+		Ana mae = new Ana();
+		// System.out.println(esposa.segredo);
+		System.out.println(esposa.facoDentroDeCasa);
+		System.out.println(esposa.formaDeFalar);
+		System.out.println(esposa.todosSabem);
+	}
+}

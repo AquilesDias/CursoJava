@@ -9,7 +9,7 @@ public class Carro {
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 
-	void acelerar() {
+	public void acelerar() {
 
 		if (velocidadeAtual + 10 > VELOCIDADE_MAXIMA) {
 			velocidadeAtual = VELOCIDADE_MAXIMA;
@@ -18,7 +18,7 @@ public class Carro {
 		}
 	}
 
-	void frear() {
+	public void frear() {
 
 		if (velocidadeAtual >= 5) {
 			velocidadeAtual -= 5;
