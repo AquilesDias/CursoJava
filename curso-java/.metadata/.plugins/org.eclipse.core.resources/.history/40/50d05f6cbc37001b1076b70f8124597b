@@ -6,14 +6,13 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 
-	Pessoa(String nome, String sobrenome, int idade) {
+	Pessoa(String nome, int idade) {
 		setNome(nome);
-		setSobrenome(sobrenome);
 		setIdade(idade);
 	}
 
 	public String getNomeCompleto() {
-		return getNome() + " " + getSobrenome();
+		return getNome() + "" + getSobrenome();
 	}
 
 	public String getNome() {

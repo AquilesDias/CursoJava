@@ -6,16 +6,15 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 
-	Pessoa(String nome, String sobrenome, int idade) {
+	Pessoa(String nome, int idade) {
 		setNome(nome);
-		setSobrenome(sobrenome);
 		setIdade(idade);
 	}
-
+	
 	public String getNomeCompleto() {
-		return getNome() + " " + getSobrenome();
+		return getNome() + ""  + getSobrenome();
 	}
-
+	
 	public String getNome() {
 		return nome;
 	}
@@ -23,7 +22,7 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-
+	
 	public String getSobrenome() {
 		return sobrenome;
 	}
