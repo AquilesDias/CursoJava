@@ -1,0 +1,9 @@
+package oo.polimorfismo;
+
+public class Comida extends Pessoa {
+
+	public Comida() {
+		this(0);
+	}
+
+}

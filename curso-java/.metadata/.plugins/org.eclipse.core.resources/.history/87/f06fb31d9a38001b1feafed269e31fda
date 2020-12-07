@@ -1,0 +1,11 @@
+package oo.polimorfismo;
+
+public class Comida extends Pessoa {
+
+	public Comida(double peso) {
+		super(peso);
+		
+	}
+
+	
+}
