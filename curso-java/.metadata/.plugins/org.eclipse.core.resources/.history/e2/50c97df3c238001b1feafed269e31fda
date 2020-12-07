@@ -14,7 +14,7 @@ public class Carro {
 	public void acelerar() {
 
 		if (velocidadeAtual + getDelta() > VELOCIDADE_MAXIMA) {
-			velocidadeAtual = VELOCIDADE_MAXIMA;
+			velocidadeAtual = getDelta() + VELOCIDADE_MAXIMA;
 		} else {
 			velocidadeAtual += getDelta();
 		}

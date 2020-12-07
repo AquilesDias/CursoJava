@@ -42,7 +42,6 @@ public class Pista {
 
 		System.out.println("===ACELEROU COM TURBO");
 		f1.ligarTurbo();
-		System.out.println(f1);
 	}
 
 }
