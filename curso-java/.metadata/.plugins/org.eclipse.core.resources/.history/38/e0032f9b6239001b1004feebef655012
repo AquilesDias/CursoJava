@@ -1,0 +1,13 @@
+package oo.lambdas;
+
+import java.util.function.BinaryOperator;
+
+public class CalculoTeste3 {
+	public static void main(String[] args) {
+
+		BinaryOperator<Double> calc = (x, y) -> {return x + y;};
+		System.out.println(calc.apply(4.0, 6.0));
+		
+		
+	}
+}
