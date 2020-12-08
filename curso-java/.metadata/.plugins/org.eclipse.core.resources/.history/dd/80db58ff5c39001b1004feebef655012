@@ -8,7 +8,7 @@ public interface Calculo {
 	default String legal() {
 		return "legal";
 	}
-
+	
 	static String muitoLegal() {
 		return "muito legal";
 	}

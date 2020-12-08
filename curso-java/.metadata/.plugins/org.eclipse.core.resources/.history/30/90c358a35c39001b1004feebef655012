@@ -13,8 +13,5 @@ public class CalculoTeste2 {
 		cal = (x, y) -> x * y;
 
 		System.out.println(cal.executar(5, 8));
-
-		System.out.println(cal.legal());
-		System.out.println(Calculo.muitoLegal());
 	}
 }

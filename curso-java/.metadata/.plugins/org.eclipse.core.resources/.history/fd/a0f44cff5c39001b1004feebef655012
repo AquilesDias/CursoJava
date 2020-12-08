@@ -9,8 +9,4 @@ public interface Calculo {
 		return "legal";
 	}
 
-	static String muitoLegal() {
-		return "muito legal";
-	}
-
 }
