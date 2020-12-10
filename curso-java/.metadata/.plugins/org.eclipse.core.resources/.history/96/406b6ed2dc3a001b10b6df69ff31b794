@@ -1,0 +1,9 @@
+package oo.lambdas;
+
+public class Desafios {
+	public static void main(String[] args) {
+
+		Produto p = new Produto("iPad", 3232.9, 0.13);
+	}
+
+}

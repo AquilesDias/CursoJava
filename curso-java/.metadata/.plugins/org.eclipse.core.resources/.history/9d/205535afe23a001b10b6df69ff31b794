@@ -1,0 +1,29 @@
+package oo.lambdas;
+
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+public class Desafios {
+	public static void main(String[] args) {
+
+		Produto p = new Produto("iPad", 3232.9, 0.13);
+
+		/*
+		 * 1. A partir do produto calcular o preco real (com desconto). 
+		 * 2. Imposto Municipal : >= 2500 (8,8%) / < 2500 (Isento).
+		 * 3. Frete: >= 3000 (100)/ < 3000(50) 
+		 * 4. Arredondar: Deixar duas casas decimais 
+		 * 5. Formatar: 1234,56
+		 */
+
+		Function<Produto, Double> precoFinal = null;
+		UnaryOperator<Double> impostoMunicipal = null;
+		UnaryOperator<Double> frete = null;
+		UnaryOperator<Double> arredondar = null;
+		Function<Double, String> formatar = null;
+
+		String preco = precoFinal.andThen(impostoMunicipal).andThen(frete).andThen(arredondar).andThen(formatar)
+				.apply(p);
+	}
+
+}
