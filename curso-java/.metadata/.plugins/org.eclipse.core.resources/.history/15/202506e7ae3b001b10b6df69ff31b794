@@ -1,0 +1,25 @@
+package streams;
+
+import java.util.Arrays;
+import java.util.function.Consumer;
+import java.util.stream.Stream;
+
+public class CriandoStreams {
+
+    public static void main(String[] args) {
+
+	Consumer<String> print = System.out::print;
+
+	Stream<String> ling = Stream.of("Java ", "JS ", "Python\n");
+	ling.forEach(print);
+
+	// a partir de um array
+	String[] ling1 = { "C++ ", "Go ", "Angular\n" };
+	Stream.of(ling1).forEach(print);
+
+	// Utilizando o proprio array
+	Arrays.stream(ling1).forEach(print);
+	Arrays.stream(ling1, 1, 2).forEach(print);
+
+    }
+}
