@@ -1,8 +1,0 @@
-package oo.abstrato;
-
-public class TesteAbstrato {
-
-	Animal a = new Cachorro();
-	
-
-}

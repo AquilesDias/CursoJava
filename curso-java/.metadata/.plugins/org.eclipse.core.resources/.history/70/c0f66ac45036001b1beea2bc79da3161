@@ -1,9 +1,0 @@
-package oo.encapsulamento.casaA;
-
-public class Ana {
-	
-	private String segredo = "Vicio";
-	String facoDentroDeCasa = "faxina";
-	
-
-}
