@@ -22,11 +22,11 @@ public class Match {
 	// false
 	System.out.println(alunos.stream().allMatch(aprovado));
 
-	// AnyMatch = Alguem bate com o predicado aprovado?
+	// AnyMatch = pelo menos um foi aprovados?
 	// true
 	System.out.println(alunos.stream().anyMatch(aprovado));
 
-	// NoneMatch = Todos batem com o predicado?
+	// Se ninguem foi reprovado?
 	// false
 	System.out.println(alunos.stream().noneMatch(reprovado));
 
