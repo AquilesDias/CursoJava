@@ -2,7 +2,7 @@ package streams;
 
 public class Aluno {
 
-    public final String nome;
+    String nome;
     final double nota;
 
     public Aluno(String nome, double nota) {
