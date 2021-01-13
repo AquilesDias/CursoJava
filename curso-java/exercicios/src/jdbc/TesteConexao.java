@@ -18,3 +18,5 @@ public class TesteConexao {
     }
 
 }
+
+//verifyServerCertificate=false&useSSL=true"; Não verifia o certificado do servidor, mas usa conexao segura entre aplicação java e aplicação mysql.
