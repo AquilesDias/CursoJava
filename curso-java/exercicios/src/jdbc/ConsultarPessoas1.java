@@ -11,7 +11,7 @@ public class ConsultarPessoas1 {
 
     public static void main(String[] args) throws SQLException {
 
-	Connection conexao = FabricaConexao.getConexao();
+	Connection conexao = FabricaConexao2.getConexao();
 	String sql = "SELECT * FROM PESSOAS";
 
 	Statement stmt = conexao.createStatement();
